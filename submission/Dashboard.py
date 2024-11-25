@@ -14,6 +14,7 @@ from pathlib import Path
 
 path1 = Path(__file__).parent / "day.csv"
 path2 = Path(__file__).parent / "hour.csv"
+path3 = Path(__file__).parent / "companylogo.jpg"
 #'Gathering data'
 df = pd.read_csv(path1) #import data Day
 hour_df= pd.read_csv(path2)
@@ -68,7 +69,7 @@ min_date = new_df["dteday"].min()
 max_date = new_df["dteday"].max()
 
 with st.sidebar:
-    st.image("companylogo.jpg")
+    st.image(path3)
     
     start_date, end_date = st.date_input(
        label='Rentang Waktu',min_value=min_date,
