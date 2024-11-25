@@ -10,11 +10,13 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
- 
+from pathlib import Path
 
+path1 = Path(__file__).parent / "day.csv"
+path2 = Path(__file__).parent / "hour.csv"
 #'Gathering data'
-df = pd.read_csv("day.csv") #import data Day
-hour_df= pd.read_csv("hour.csv")
+df = pd.read_csv(path1) #import data Day
+hour_df= pd.read_csv(path2)
 
 #'assessing data'
 dupes=df.duplicated().sum()#nyari duplicate
