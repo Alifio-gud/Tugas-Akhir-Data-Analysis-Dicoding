@@ -13,8 +13,8 @@ import seaborn as sns
  
 
 #'Gathering data'
-df = pd.read_csv("Data day.csv") #import data Day
-hour_df= pd.read_csv("Data hour.csv")
+df = pd.read_csv("Data/day.csv") #import data Day
+hour_df= pd.read_csv("Data/hour.csv")
 
 #'assessing data'
 dupes=df.duplicated().sum()#nyari duplicate
