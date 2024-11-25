@@ -1,7 +1,7 @@
 # Bike-Rent Data Dashboard
 
 
-pip install -r requirements.txt
+conda install -r requirements.txt
 ```
 
 ## Setup Environment - Shell/Terminal
