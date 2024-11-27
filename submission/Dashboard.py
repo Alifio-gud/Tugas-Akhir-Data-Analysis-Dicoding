@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 
-path1 = Path(__file__).parent / "data\day.csv"
-path2 = Path(__file__).parent / "data\hour.csv"
+path1 = Path(__file__).parent / "data/day.csv"
+path2 = Path(__file__).parent / "data/hour.csv"
 
 #'Gathering data'
 df = pd.read_csv(path1) #import data Day
