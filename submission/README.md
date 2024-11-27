@@ -22,4 +22,4 @@ streamlit run Dashboard.py
 ```
 
 ## cara menjalankan
-## "tab menampilkan data yang terbagi pada 3 kategori, sidebar mengontrol rentang data yang ingin dilihat.
+## "tab menampilkan data yang terbagi pada 3 kategori, sidebar mengontrol rentang data yang ingin dilihat"
